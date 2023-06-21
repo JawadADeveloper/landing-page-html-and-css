@@ -2,3 +2,27 @@
     margin: 0;
     padding: 0;
 }
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+img{
+    height: 600px;
+    width: 1380px;
+}
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 56px;
+    display: flex;
+  }
+  #Nav{
+    margin-left: 76px;
+    margin-right: 136px;
+    padding-left: 154px;
+  }
+
+.Span{
+    margin-right: 100px;
+}
