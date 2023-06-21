@@ -52,6 +52,7 @@ img{
     border-radius: 5px;
     text-align: center;
     width: 70px;
+    box-shadow: 10px 10px 20px 1px lightblue;
   }
   .centered {
     position: absolute;
@@ -85,7 +86,7 @@ img{
 }
 
 hr{
-    height: 1px;
+    height: 2px;
     width: 50px;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -123,4 +124,93 @@ p {
 
     font-size: 10pt;
     font-family: Arial, sans-serif;
+    
+
 }
+.introduction-1{
+
+    margin-top: 100px;
+}
+.image img{
+    display: flex;
+    height: 400px;
+   width: 400px;
+    border-top-right-radius: 20%;
+    border-bottom-left-radius: 20%;
+    float: left;
+    box-shadow: 10px 10px 20px 1px lightblue;
+}
+
+.QULITY{
+    height: 600px;
+    width: 1380px;
+    padding-left: 90px;
+}
+.main-box{
+    padding-left: 544px;
+    padding-top: 89px;
+}
+
+pre{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-right: 10px;
+    padding-top: px;
+}
+.btn
+{
+    margin-top: 10px;
+    width: 100px;
+}
+
+.container-2{
+    margin-top: 60px;
+}
+
+.Testimonials{
+    height: 600px;
+    width: 1380px;
+    padding-left: 90px;
+    
+    
+}
+
+.Testimonialsbox .testimage img{
+    height: 100px;
+   width: 100px;
+   padding: auto;
+   border-radius: 166px;
+   align-items: center;
+   
+}
+.Testimonialsbox{
+    float: left;
+    margin-left: 200px;
+    align-items: center;
+    margin-top: 20px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    width: 290px;
+    border: 1px dotted black;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    box-shadow: 10px 10px 20px 1px lightblue;
+}
+.testimage{
+    padding-left: 96px;
+}
+.checked {
+    color: orange;
+    margin-top: 20px;
+    
+  }
+  .star{
+    padding-left: 80px;
+  }
+  .Testimonials p{
+    padding-left: 60px;
+  }
+  .Testimonials h5, small{
+    padding-left: 80px;
+    margin-top: 10px;
+  }
