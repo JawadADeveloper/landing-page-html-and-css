@@ -1,28 +1,126 @@
 *{
     margin: 0;
     padding: 0;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    height: 100%;
+    width: 100%;
 }
 .container {
     position: relative;
     text-align: center;
     color: white;
-  }
+}
 img{
     height: 600px;
     width: 1380px;
+    opacity: 0.8;
 }
 .top-left {
     position: absolute;
     top: 8px;
     left: 56px;
     display: flex;
+    margin-top: 25px;
+    
   }
-  #Nav{
-    margin-left: 76px;
-    margin-right: 136px;
-    padding-left: 154px;
+  .top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    margin-top: 20px;
+    display: flex;
+    margin-right: 70px;
+  }
+  .nav-bar
+  {
+    margin-left: 100px;
+    padding-left: 100px;
+    margin-top: 20px;
+  }
+  a{
+    margin-right: 100px;
   }
 
-.Span{
+  button{
+ margin-right: 5px;
+    height: 40px;
+    background-color:#96bb7c;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    width: 70px;
+  }
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+  }
+  
+.main-section{
+    height: 600px;
+    width: 1380px;
+    padding-left: 90px;
+}
+
+.main-container
+{
+    margin-top: 60px;
+}
+.box{
+    float: left;
+    width: 20.3%;
+    border:  1px solid transparent;
+    box-shadow: 10px 10px 20px 1px lightblue;
+    margin-right: 5px;
+    border: 1px solid transparent;
+    margin-top: 70px;
+    width: 200px;
+    height: 200px;
     margin-right: 100px;
+}
+
+hr{
+    height: 1px;
+    width: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: red;
+    background-color: red;
+    padding-left: 20px;
+}
+
+.icon{
+    margin-right: 20px;
+}
+
+.box .icon{
+    margin-left:60px ;
+    border: 1px solid transparent;
+    height: 80;
+    width: 80px;
+    background-color:white ;
+  
+}
+
+.box .icon img{
+
+    background-color: #96bb7c;
+    height: 80px;
+    width: 80px;
+}
+.box:hover{
+    background-color: #96bb7c;
+}
+
+p {
+    color: #000; /* Fallback for older browsers */
+    color: rgba(0, 0, 0, 0.5);
+
+    font-size: 10pt;
+    font-family: Arial, sans-serif;
 }
